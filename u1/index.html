@@ -199,23 +199,20 @@ por el Dr. John.
 
           
 
-            <!-- CÓDIGO DA KIWIFY -->
+            <!-- HOTMART - Upsell Widget -->
+<div id="box_hotmart"></div>
+<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
 
-            <script type="text/javascript">
-  function importHotmart(){ 
-    var imported = document.createElement('script'); 
-    imported.src = 'https://static.hotmart.com/checkout/widget.min.js'; 
-    document.head.appendChild(imported); 
-    var link = document.createElement('link'); 
-    link.rel = 'stylesheet'; 
-    link.type = 'text/css'; 
-    link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css'; 
-    document.head.appendChild(link);  } 
-  importHotmart(); 
- </script> 
- <a onclick="return false;" href="https://pay.hotmart.com/J72196551M?checkoutMode=2" class="hotmart-fb hotmart__button-checkout"><img src='https://static.hotmart.com/img/btn-buy-green.png'></a> 
+<script>
+opts = {
+key: 'USL-74898-205594-1f2bcaba85bd6a797989c9e5beffa1f6',
+width: '650' ,
+height: '420'
+};
+Upsell.Widget.show(opts);
+</script>
+<!-- HOTMART - Upsell Widget [end] -->
 
-            <!-- CÓDIGO DA KIWIFY -->
 
           </div>
           <p class="lead">Con este sistema, la Dra. John ha ayudado a mujeres como Ana...</p>
